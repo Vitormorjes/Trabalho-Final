@@ -70,15 +70,15 @@ for x in range (1,6): #Um for para mostrar os o "top x" primeiros de cada país 
      print(all_password[all_password["Rank"] == x])  #Mostrando o "top x" de cada país
 
 plt.bar(c,h,color="red") #Criando um gráfico de barras com os algarismos e a quantidade de vezes que eles aparecem
-plt.xticks(c)
-plt.xlabel("Algarismos")
-plt.ylabel("Quantidade de vezes que aparece")
-plt.title("Quantidade de vezes que cada algarismo aparece em todas as senhas")
-plt.show()
+plt.xticks(c) #Definindo os algarismos como os valores do eixo x
+plt.xlabel("Algarismos") #Definindo o nome do eixo x
+plt.ylabel("Quantidade de vezes que aparece") #Definindo o nome do eixo y
+plt.title("Quantidade de vezes que cada algarismo aparece em todas as senhas") #Definindo o título do gráfico
+plt.show() #Mostrando o gráfico
 
 plt.bar(z,b,color="blue") #Criando um gráfico de barras com as letras e a quantidade de vezes que elas aparecem
-plt.xticks(z)
-plt.xlabel("Letras")
-plt.ylabel("Quantidade de vezes que aparece")
-plt.title("Quantidade de vezes que cada letra aparece em todas as senhas")
-plt.show()
+plt.xticks(z) #Definindo as letras como os valores do eixo x
+plt.xlabel("Letras") #Definindo o nome do eixo x
+plt.ylabel("Quantidade de vezes que aparece") #Definindo o nome do eixo y
+plt.title("Quantidade de vezes que cada letra aparece em todas as senhas") #Definindo o título do gráfico
+plt.show() #Mostrando o gráfico
